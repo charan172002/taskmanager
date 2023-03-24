@@ -202,7 +202,7 @@ class SignUp extends React.Component {
         return (
             <>
 
-                {(this.state.success) ? <Navigate to="/AboutUs" /> : <div></div>}
+                {(this.state.success) ? <Navigate to="/Login" /> : <div></div>}
                 {(this.state.loginup) ? <Navigate to="/Login" /> : <div></div>}
                 {/* {(this.state.restart) ? <Navigate to="/signUp" /> : <div></div>} */}
                 <button style={{
